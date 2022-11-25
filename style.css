@@ -7,3 +7,8 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+nav {
+  padding: 3rem;
+  display: flex;
+}
