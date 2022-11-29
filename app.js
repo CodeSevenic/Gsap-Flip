@@ -11,5 +11,10 @@ links.forEach((link) => {
     // move the line
     const state = Flip.getState(activeNav);
     link.appendChild(activeNav);
+    Flip.from(state, {
+      duration: 1.25,
+      absolute: true,
+      ease: 'elastic.out(1,0.5)',
+    });
   });
 });
