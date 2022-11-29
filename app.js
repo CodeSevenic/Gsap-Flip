@@ -4,9 +4,12 @@ const activeNav = document.querySelector('.active-nav');
 links.forEach((link) => {
   link.addEventListener('click', (e) => {
     gsap.to(links, { color: '#252525' });
-
+    // Turn navs blue
     if (document.activeElement === link) {
       gsap.to(link, { color: '#385ae0' });
     }
+    // move the line
+    const state = Flip.getState(activeNav);
+    link.appendChild(activeNav);
   });
 });
