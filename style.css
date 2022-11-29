@@ -27,8 +27,16 @@ nav {
   font-weight: bold;
 }
 
+.nav-item {
+  position: relative;
+}
+
 .active-nav {
   height: 3px;
   background-color: #385ae0;
   border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
