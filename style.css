@@ -26,3 +26,9 @@ nav {
   color: #252525;
   font-weight: bold;
 }
+
+.active-nav {
+  height: 3px;
+  background-color: #385ae0;
+  border-radius: 1rem;
+}
