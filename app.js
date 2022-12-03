@@ -6,7 +6,7 @@ links.forEach((link) => {
     gsap.to(links, { color: '#252525' });
     // Turn navs blue
     if (document.activeElement === link) {
-      gsap.to(link, { color: '#385ae0' });
+      // gsap.to(link, { color: '#385ae0' });
     }
     // move the line
     const state = Flip.getState(activeNav);
