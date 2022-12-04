@@ -9,7 +9,7 @@ links.forEach((link) => {
       gsap.to(link, { color: '#385ae0' });
     }
     // move the line
-    const state = Flip.getState(activeNav);
+    // const state = Flip.getState(activeNav);
     link.appendChild(activeNav);
     Flip.from(state, {
       duration: 1.25,
